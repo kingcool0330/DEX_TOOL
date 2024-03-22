@@ -1,0 +1,20 @@
+@font-face {
+  font-family: dexFont;
+  src: url("./assets/font/custom.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  font-family: dexFont;
+}
+
+:root {
+  --background-color: #fff;
+  --color: #000;
+}
