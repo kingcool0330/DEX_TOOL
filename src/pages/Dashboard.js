@@ -1,4 +1,6 @@
 import React from "react";
+import Faq from "../components/Dashboard/Faq";
+import VerifyUser from "../components/Dashboard/VerifyUser";
 
 // load assets
 import "../assets/css/dashboard.scss";
@@ -6,9 +8,8 @@ import "../assets/css/dashboard.scss";
 const Dashboard = () => {
   return (
     <div className="dashboard">
-      <div className="container">
-        <div>Dashboard</div>
-      </div>
+      <Faq />
+      <VerifyUser />
     </div>
   );
 };
