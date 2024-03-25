@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 import Faq from "../components/Dashboard/Faq";
 import VerifyUser from "../components/Dashboard/VerifyUser";
 
@@ -7,10 +9,14 @@ import "../assets/css/dashboard.scss";
 
 const Dashboard = () => {
   return (
-    <div className="dashboard">
-      <Faq />
-      <VerifyUser />
-    </div>
+    <>
+      <Header />
+      <div className="dashboard">
+        <Faq />
+        <VerifyUser />
+      </div>
+      <Footer />
+    </>
   );
 };
 
