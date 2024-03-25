@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 100vw;
+  height: 64px;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+      width: fit-content;
+
+      .logo-img {
+        width: 35px;
+      }
+    }
+
+    .menu-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .menu-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 64px;
+        padding: 0px 0px 0px 24px;
+
+        span {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .search {
+      padding: 20px 8px;
+      height: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sign-in {
+      height: 64px;
+      padding: 20px 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        transition: 0.2s all ease-in-out;
+
+        &:hover {
+          color: var(--stand-hover-color);
+        }
+      }
+    }
+
+    .sign-up {
+      height: 64px;
+      padding: 20px 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        transition: 0.2s all ease-in-out;
+        background-color: var(--stand-color);
+        padding: 4px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+
+    .download {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 8px;
+    }
+
+    .global {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 8px;
+    }
+  }
+}
