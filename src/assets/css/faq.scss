@@ -1,5 +1,7 @@
 .faq-section {
   width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
 
   .title {
     font-weight: bold;
@@ -24,7 +26,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #1e2329;
+      background-color: var(--faq-item-background-hover-color);
 
       .drop-icon {
         background-color: var(--stand-color) !important;
@@ -56,9 +58,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #eaecef;
         border-radius: 8px;
-        border: 1px solid #2b3139;
+        border: 1px solid var(--faq-no-border-color);
         background-color: inherit;
       }
 
@@ -68,7 +69,6 @@
         line-height: 28px;
         flex: 1;
         margin-right: 8px;
-        color: #eaecef;
         background-color: inherit;
       }
 
