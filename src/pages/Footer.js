@@ -249,9 +249,11 @@ const Footer = () => {
     if (themeFlag === "dark") {
       node.setAttribute("href", "/assets/css/light.css");
       setThemeFlag("light");
+      localStorage.setItem("themeMode", "light");
     } else {
       node.setAttribute("href", "/assets/css/dark.css");
       setThemeFlag("dark");
+      localStorage.setItem("themeMode", "dark");
     }
     node.setAttribute("id", "lightlink");
     document.getElementById("dextool-header").append(node);

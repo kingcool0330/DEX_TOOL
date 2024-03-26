@@ -1,0 +1,119 @@
+.faq-section {
+  width: 100%;
+
+  .title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    box-sizing: border-box;
+    margin: 0px auto 24px;
+    min-width: 0px;
+    flex: 1 1 0%;
+    width: fit-content;
+    text-align: center;
+  }
+
+  .faq-item {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #1e2329;
+
+      .drop-icon {
+        background-color: var(--stand-color) !important;
+
+        svg {
+          color: #000;
+
+          path {
+            color: #000;
+          }
+        }
+      }
+    }
+
+    .question-section {
+      display: flex;
+      align-items: center;
+      background-color: inherit;
+
+      .no {
+        margin-right: 16px;
+        padding: 4px;
+        width: 32px;
+        height: 32px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #eaecef;
+        border-radius: 8px;
+        border: 1px solid #2b3139;
+        background-color: inherit;
+      }
+
+      .question {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        flex: 1;
+        margin-right: 8px;
+        color: #eaecef;
+        background-color: inherit;
+      }
+
+      .drop-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: inherit;
+
+        svg {
+          background-color: inherit;
+
+          path {
+            background-color: inherit;
+          }
+        }
+      }
+    }
+
+    .answer-section {
+      padding-left: 48px;
+      padding-right: 48px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 16px 0px 0px;
+      min-width: 0px;
+      display: block;
+      color: rgb(132, 142, 156);
+      background-color: inherit;
+
+      a {
+        color: rgb(240, 185, 11);
+        word-break: break-word;
+        background-color: inherit;
+      }
+
+      li {
+        color: rgb(132, 142, 156);
+        background-color: inherit;
+      }
+    }
+  }
+}
